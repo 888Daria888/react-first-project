@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Counter from './components/Counter'
+import './index.css'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>React App</h1>
+    <Counter />
   </React.StrictMode>,
   document.getElementById('root')
 );
